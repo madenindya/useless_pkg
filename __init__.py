@@ -1,0 +1,1 @@
+from .kucing import Kucing
