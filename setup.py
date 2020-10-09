@@ -7,6 +7,7 @@ VERSION = '0.0.0'
 PACKAGE_NAME = 'useless_pkg_madenindya'
 AUTHOR = 'None'
 AUTHOR_EMAIL = 'noone@email.com'
+URL = 'https://github.com/madenindya/useless_pkg'
 REQUIRES_PYTHON = '>=3.8.0'
 LICENSE = 'MIT License'
 DESCRIPTION = 'Nothing important'
@@ -33,6 +34,7 @@ setup(name=PACKAGE_NAME,
       author=AUTHOR,
       license=LICENSE,
       author_email=AUTHOR_EMAIL,
+      url=URL,
       install_requires=reqs,
       packages=find_packages(exclude=['tests'])
       )
