@@ -1,17 +1,14 @@
-import pathlib
 from setuptools import setup, find_packages
 
-HERE = pathlib.Path(__file__).parent
-
 VERSION = '0.0.0'
-PACKAGE_NAME = 'useless_pkg_madenindya'
+PACKAGE_NAME = 'useless_pkg'
 AUTHOR = 'None'
 AUTHOR_EMAIL = 'noone@email.com'
 URL = 'https://github.com/madenindya/useless_pkg'
 REQUIRES_PYTHON = '>=3.8.0'
 LICENSE = 'MIT License'
 DESCRIPTION = 'Nothing important'
-LONG_DESCRIPTION = (HERE / "README.md").read_text()
+LONG_DESCRIPTION = "haha hihi"
 LONG_DESC_TYPE = "text/markdown"
 
 
